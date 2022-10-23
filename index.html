@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Image -> Video</title>
+
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+        <div class="card">
+            <h3>Image to Video on Hover</h3>
+
+            <video onmouseover="this.play()" onmouseout="this.load()" muted="muted" poster="image.jpeg">
+                <source src="video.mp4" type="video/mp4"></source>
+            </video>
+
+            <p>Image turns into video on hover.</p>
+            <p>By <a href="https://www.ericbollar.com">Eric Bollar</a></p>
+        </div>
+    </body>
+
+</html>
